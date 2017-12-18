@@ -1,0 +1,65 @@
+\documentclass[twoside,11pt]{article}
+
+\usepackage{TechReport_2017_CZ}
+
+
+\fancyhf{}
+\lhead{\color{bgr_DarkBlue}SDR v navigačních systémech}
+\rhead{\color{bgr_DarkBlue}Závěrečná zpráva}
+
+\lfoot{\color{bgr_DarkBlue} v2.2, 2017}
+\rfoot{\color{bgr_DarkBlue} Strana \thepage}
+
+
+\begin{document}
+
+\begin{titlepage}
+\center % Center everything on the page
+%-------------------------------------------------------------------------------
+%	TITLE SECTION
+%-------------------------------------------------------------------------------
+{ \huge \bfseries Použití softwarově definovaného rádia
+			v~leteckých navigačních aplikacích.}\\[2in] % Title of your document
+
+\fontsize{17}{12}\textbf{\textcolor{bgr_DarkBlue}{Příklad implementace 
+			digitálního rádiového vysílače a přijímače}}\\[3in] % Subtitle
+        
+%-------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%-------------------------------------------------------------------------------
+\begin{minipage}{0.9\textwidth}
+\begin{flushleft} \large
+\emph{Autor:} Petr \textsc{BOJDA}\\
+
+\emph{Dne:} 31. listopadu 2017\\%\today\\
+\emph{Verze dokumentu:} 2.2
+\end{flushleft}
+\end{minipage}
+\end{titlepage}
+
+% ********************************** CHAPTER 1 Úvod ****************************
+\include {./ch_01/tex/chapter_01}
+
+% ********************************** CHAPTER 2 Simulace ************************
+\include {./ch_02/tex/chapter_02}
+
+% ********************************** CHAPTER 3 Realizace ***********************
+\include {./ch_03/tex/chapter_03}
+
+% ********************************** CHAPTER 3 Realizace ***********************
+\include {./ch_04/tex/chapter_04}
+
+
+% ********************************** CHAPTER 3 Realizace ***********************
+\include {./ch_05/tex/chapter_05}
+
+
+% ********************************** CHAPTER 3 Realizace ***********************
+\include {./ch_06/tex/chapter_06}
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{main}
+
+\end{document}
