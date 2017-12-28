@@ -1,5 +1,5 @@
 qa_ssrg_ff 0 0
-qa_ssrg_bpsk_fc 2 0.10864
-qa_ssrg_qpsk_fc 3 0.0560346
+qa_ssrg_bpsk_fc 5 0.0385942
+qa_ssrg_qpsk_fc 6 0.0295617
 ---
 qa_ssrg_ff

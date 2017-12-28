@@ -31,9 +31,8 @@ def write_csv(bb,n_of_bits,filename):
         writer = csv.writer(csvfile)
         writer.writerow(('iteration', 'input_of_reg', 'output_of_reg'))
         for i1 in range (0,n_of_bits):
-            writer.writerow((i1, 1, bb[int(i1/2)]))
+            writer.writerow((i1, 1, bb[int(i1 / 2)]))
             writer.writerow((i1, 0, bb[int(i1 / 2)]))
-    # TODO: Indexing of the bb vector is not correct
 
 if __name__ == '__main__':
     main()
